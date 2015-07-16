@@ -7,8 +7,8 @@ from copy import deepcopy
 import difflib
 import os.path
 
-from notebook.services.contents.filemanager import FileContentsManager
-from notebook.services.contents.filecheckpoints import FileCheckpoints
+from IPython.html.services.contents.filemanager import FileContentsManager
+from IPython.html.services.contents.filecheckpoints import FileCheckpoints
 
 def clean_copy(nb):
     nb2 = deepcopy(nb)
